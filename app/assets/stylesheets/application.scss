@@ -2,9 +2,12 @@
 @import "bootstrap";
 
 
+//////////////////////// NAVBARS /////////////////////////////
 .login-reg {
   float: right;
   padding: 1em;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 .nav-pills {
@@ -12,10 +15,151 @@
   padding-top: 1em;
 }
 
+.pill-format {
+  color: black;
+  font-family: 'Raleway', sans-serif;
+
+}
 
 #develdev_sm {
   height: 40px;
   width: auto;
   padding-left: 1em;
-  
+  padding-bottom: 0.5em;
+
+}
+
+#navbar-home {
+  width: 100%;
+  // position: fixed;
+}
+
+
+////////////////////// DEVELDEV HOME PAGE (FEATURES) /////////////////////////
+.develdev-home-title {
+  // background-color: #f48342;
+  height: 500px;
+  width: auto;
+  text-align: center;
+  // background: linear-gradient(white, #6fcaf7);
+  font-family: 'Raleway', sans-serif;
+
+}
+
+#develdev_feature_list {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  // border-right: 1px solid black;
+
+}
+
+#develdev_feature_height {
+  // height: 500px;
+  // border-top: 1px solid black;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  // background: linear-gradient(white, #48eae2);
+}
+
+.feature-desc {
+  font-weight: bold;
+  padding-top: 0.5em;
+  font-size: 20px;
+}
+
+.feature-bio {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#feature-desc {
+  list-style: none;
+}
+
+#feature-desc li {
+  // padding: 0.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+#develdev_features {
+  font-size: 7em;
+}
+
+.fa-users {
+  color: #0584c4;
+}
+
+.fa-clock-o {
+  color: #03b512;
+}
+
+#save-green {
+  color: #03b512;
+}
+
+.fa-refresh {
+  color: #7c09c4;
+}
+////////////////////////////// DEVELDEV DESCRIPTION (ORGANIZE) /////////////////////////////
+#develdev_org {
+  height: 500px;
+  // width: 100%;
+  // background: linear-gradient(white, #c184ed);
+  background-color: #48a5db;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+#organization {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 3em;
+  padding-left: 1em;
+}
+
+//////////////////////////////// DEVELDEV DESCRIPTION (SEARCH) ////////////////////////////
+
+#develdev_search {
+  height: 500px;
+  background-color: #28477a;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+#search-desc {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 3em;
+}
+
+//////////////////////// DEVELDEV FOOTER /////////////////////////////
+
+.develdev_footer {
+  background-color: black;
+  height: 10em;
+  // position: fixed;
+  width: 100%;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+.develdev-copyright {
+  text-align: center;
+  padding-top: 2em;
+}
+
+.footer-block {
+  display: inline-flex;
+  list-style: none;
+  padding-top: 2em;
+  margin-left: -60px;
+
+}
+
+#footer-list-item {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
 }
