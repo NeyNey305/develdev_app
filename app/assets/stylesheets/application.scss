@@ -73,6 +73,14 @@ input#password {
   padding-top: 2em;
 }
 
+#login-buttons {
+  display: inline-flex;
+
+}
+
+.login-submit {
+  padding-left: 10em;
+}
 ////////////////////////// REGISTRATION FORM //////////////////////////////////
 .reg-form {
   // background-color: #dbdcdd;

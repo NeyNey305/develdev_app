@@ -16,8 +16,20 @@
           <%= check_box_tag :remember, params[:remember], true %>
           <%= label_tag :remember %>
         </div>
-        <div class="actions">
-          <%= submit_tag "Login", class: 'btn btn-primary'%>
+        <div class="actions" id="login-buttons">
+          <div class="dropdown">
+            <button class="btn btn-warning dropdown-toggle" type="button" data-toggle="dropdown">Forgot Password?
+              <span class="caret"></span></button>
+              <ul class="dropdown-menu">
+                <li><%= render 'forgot_password_form' %></li>
+                <%= link_to 'Back', root_path %>
+              </ul>
+            </div>
+            <div class="login-submit">
+              <%= submit_tag "Login", class: 'btn btn-primary'%>
+
+            </div>
+
         </div>
         <% end %>
       </div>
