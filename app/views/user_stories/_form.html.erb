@@ -1,0 +1,14 @@
+<%= simple_form_for(@user_story) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :as_a %>
+    <%= f.input :i_want_to %>
+    <%= f.input :so_that_i %>
+  
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

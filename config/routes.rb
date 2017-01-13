@@ -1,10 +1,22 @@
 Rails.application.routes.draw do
+  get 'password_resets/create'
+
+  get 'password_resets/edit'
+
+  get 'password_resets/update'
+
   get 'dashboard/index'
   # get 'dashboard' => 'dashboard#index', :as => :dashboard
 
   get 'home/index'
+  resources :user_stories
 
-  resources :projects
+  # delete 'project' => 'projects#destroy'
+  resources :password_resets
+
+  resources :projects do
+    resources :user_stories
+  end
 
   resources :user_sessions
   resources :users

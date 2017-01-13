@@ -1,4 +1,27 @@
-<h1>My Dashboard</h1>
+<div class="container-fluid">
+  <div class="row" id="main-dashboard">
+    <div class="col-md-12">
+      <h1>My Dashboard</h1>
+      <%= link_to 'New Project', new_project_path, class: 'btn btn-success'%>
+    </div>
+  </div>
+</div>
 
 
-<%= link_to 'New Project', new_project_path, class: 'btn btn-success'%>
+
+<div id="draggable" class="ui-widget-content">
+  <p>Drag me to my target</p>
+</div>
+
+<div id="droppable" class="ui-widget-header">
+  <p>Drop here</p>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12" id="status-bar">
+      <h2>STATUS/PROGRESS BAR</h2>
+    </div>ß
+  </div>
+</div>

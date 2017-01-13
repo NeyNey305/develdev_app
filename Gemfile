@@ -36,6 +36,9 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
 gem 'sorcery'
 
+gem 'simple_form'
+
+gem 'hirb', '~> 0.7.3'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

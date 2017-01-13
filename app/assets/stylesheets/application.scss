@@ -2,13 +2,14 @@
 @import "bootstrap";
 
 
-//////////////////////// NAVBARS /////////////////////////////
+//////////////////////// NAVBARS //////////////////////////////////////////
 .login-reg {
   float: right;
   padding: 1em;
   font-family: 'Raleway', sans-serif;
 
 }
+
 
 .nav-pills {
   float: right;
@@ -34,10 +35,101 @@
   // position: fixed;
 }
 
+//////////////////////////// LOGIN FORM /////////////////////////////////
+.login-form {
+  // background-color: #dbdcdd;
+  text-align: left;
+  border-radius: 7px;
+  height: 250px;
+  padding-top: 1.5em;
+}
 
+// #login-form {
+//   text-align: center;
+// }
+
+.input-format {
+  border-radius: 5px;
+}
+
+#login-new {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+input#email {
+  width: 350px;
+  padding: 0.5em;
+  height: 3em;
+}
+
+input#password {
+  width: 350px;
+  padding: 0.5em;
+  height: 3em;
+}
+
+.actions {
+  padding-top: 2em;
+}
+
+////////////////////////// REGISTRATION FORM //////////////////////////////////
+.reg-form {
+  // background-color: #dbdcdd;
+  text-align: center;
+  // border-radius: 7px;
+  height: 250px;
+}
+
+#register-new {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+#register-label {
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+#register-already {
+  height: 300px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 5em;
+}
+
+input#user_email {
+  // border-radius: 1px;
+  // border: none;
+  // border-bottom: 1px solid black;
+  width: 350px;
+  padding: 0.5em;
+  height: 3em;
+}
+
+input#user_password {
+  // border-radius: 5px;
+  // border: none;
+  // border-bottom: 1px solid black;
+  width: 350px;
+  padding: 0.5em;
+  height: 3em;
+
+}
+
+input#user_password_confirmation {
+  // border: none;
+  // border-bottom: 1px solid black;
+
+  width: 350px;
+  padding: 0.5em;
+  height: 3em;
+
+}
 ////////////////////// DEVELDEV HOME PAGE (FEATURES) /////////////////////////
 .develdev-home-title {
-  // background-color: #f48342;
+  // background-color: #dbdcdd;
   height: 500px;
   width: auto;
   text-align: center;
@@ -46,10 +138,20 @@
 
 }
 
+#home-title {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+#develdev_flowchart {
+  width: 600px
+}
+
 #develdev_feature_list {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   // border-right: 1px solid black;
+
 
 }
 
@@ -57,7 +159,7 @@
   // height: 500px;
   // border-top: 1px solid black;
   padding-top: 2em;
-  padding-bottom: 2em;
+  padding-bottom: 5em;
   // background: linear-gradient(white, #48eae2);
 }
 
@@ -101,6 +203,20 @@
 .fa-refresh {
   color: #7c09c4;
 }
+
+.devicon-github-plain {
+  font-size: 4em;
+}
+
+#google-drive-icon {
+  height: 4em;
+  padding-left: 5em;
+  margin-top: -35px;
+}
+
+.feat-icon {
+  text-align: center;
+}
 ////////////////////////////// DEVELDEV DESCRIPTION (ORGANIZE) /////////////////////////////
 #develdev_org {
   height: 500px;
@@ -135,6 +251,9 @@
   padding-top: 3em;
 }
 
+#google-bar {
+  padding-left: 7em;
+}
 //////////////////////// DEVELDEV FOOTER /////////////////////////////
 
 .develdev_footer {
@@ -162,4 +281,15 @@
 #footer-list-item {
   padding-right: 0.5em;
   padding-left: 0.5em;
+}
+
+///////////////////////////// DASHBOARD /////////////////////////////
+
+#main-dashboard {
+  height: 450px;
+  // background-color: #96beff;
+}
+
+#status-bar {
+  background-color: #96beff;
 }
